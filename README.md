@@ -39,12 +39,20 @@ This solution allows seamless integration without requiring any logins, APIs, or
 ## Requirements
 
 - Python 3.x
-- `requests` library
+- `requests`
+- `beautifulsoup4`
 
-You can install the required library using pip:
+You can install the required dependencies globally using pip:
 
 ```bash
-pip3 install requests
+pip3 install -r requirements.txt
+```
+
+Alternatively, create a virtual environment:
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ## Usage
